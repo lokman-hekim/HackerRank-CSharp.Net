@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTNewYearChaos.cs" />
     <Compile Include="UTStringAnagram.cs" />
     <Compile Include="UTMaximumCostOfLaptop.cs" />
     <Compile Include="UTRepeatedString.cs" />
@@ -72,6 +73,10 @@
       <Project>{d193f4e0-60a6-4874-8da2-347c652cc682}</Project>
       <Name>MaximumCostOfLaptopCount</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NewYearChaos\NewYearChaos.csproj">
+      <Project>{f57868f6-98cc-4214-8441-8581bb856be3}</Project>
+      <Name>NewYearChaos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RepeatedString\RepeatedString.csproj">
       <Project>{ea678312-f3a1-4be4-a152-fb9eb3c40e5b}</Project>
       <Name>RepeatedString</Name>
@@ -84,6 +89,9 @@
       <Project>{c05805e0-64eb-41c2-985e-bf9f4e4285bd}</Project>
       <Name>StringAnagram</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
