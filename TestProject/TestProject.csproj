@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTMinimumSwaps2.cs" />
     <Compile Include="UTNewYearChaos.cs" />
     <Compile Include="UTStringAnagram.cs" />
     <Compile Include="UTMaximumCostOfLaptop.cs" />
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\MaximumCostOfLaptopCount\MaximumCostOfLaptopCount.csproj">
       <Project>{d193f4e0-60a6-4874-8da2-347c652cc682}</Project>
       <Name>MaximumCostOfLaptopCount</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MinimumSwaps2\MinimumSwaps2.csproj">
+      <Project>{7169d9c2-7f5c-4ed1-82c2-b7c980f0ec21}</Project>
+      <Name>MinimumSwaps2</Name>
     </ProjectReference>
     <ProjectReference Include="..\NewYearChaos\NewYearChaos.csproj">
       <Project>{f57868f6-98cc-4214-8441-8581bb856be3}</Project>
