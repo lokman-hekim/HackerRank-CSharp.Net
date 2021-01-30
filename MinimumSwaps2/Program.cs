@@ -29,42 +29,6 @@ namespace MinimumSwaps2
             return retVal;
         }
 
-        public static int minimumSwaps1(int[] arr)
-        {
-            // Initialise count variable 
-            int count = 0;
-            int i = 0;
-            while (i < arr.Length)
-            {
-
-                // If current element is 
-                // not at the right position 
-                if (arr[i] != i + 1)
-                {
-
-                    while (arr[i] != i + 1)
-                    {
-                        int temp = 0;
-
-                        // Swap current element 
-                        // with correct position 
-                        // of that element 
-                        temp = arr[arr[i] - 1];
-                        arr[arr[i] - 1] = arr[i];
-                        arr[i] = temp;
-                        count++;
-                    }
-                }
-
-                // Increment for next index 
-                // when current element is at 
-                // correct position 
-                i++;
-            }
-            return count;
-        }
-
-
         static void Main(string[] args)
         {
 

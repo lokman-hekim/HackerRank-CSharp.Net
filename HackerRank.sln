@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAnagram", "StringAnag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSwaps2", "MinimumSwaps2\MinimumSwaps2.csproj", "{7169D9C2-7F5C-4ED1-82C2-B7C980F0EC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayManipulation", "ArrayManipulation\ArrayManipulation.csproj", "{D5B8A8A0-52E7-4EFA-AB66-7C2921E2D82E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7169D9C2-7F5C-4ED1-82C2-B7C980F0EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7169D9C2-7F5C-4ED1-82C2-B7C980F0EC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7169D9C2-7F5C-4ED1-82C2-B7C980F0EC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5B8A8A0-52E7-4EFA-AB66-7C2921E2D82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5B8A8A0-52E7-4EFA-AB66-7C2921E2D82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5B8A8A0-52E7-4EFA-AB66-7C2921E2D82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5B8A8A0-52E7-4EFA-AB66-7C2921E2D82E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTArrayManipulation.cs" />
     <Compile Include="UTMinimumSwaps2.cs" />
     <Compile Include="UTNewYearChaos.cs" />
     <Compile Include="UTStringAnagram.cs" />
@@ -62,6 +63,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ArrayManipulation\ArrayManipulation.csproj">
+      <Project>{d5b8a8a0-52e7-4efa-ab66-7c2921e2d82e}</Project>
+      <Name>ArrayManipulation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CountingValleys\CountingValleys.csproj">
       <Project>{3b532231-3c3e-4a94-90b8-74893766c318}</Project>
       <Name>CountingValleys</Name>
