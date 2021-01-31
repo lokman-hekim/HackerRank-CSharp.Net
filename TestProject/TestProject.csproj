@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTHashTablesRansomNote.cs" />
     <Compile Include="UTArrayManipulation.cs" />
     <Compile Include="UTMinimumSwaps2.cs" />
     <Compile Include="UTNewYearChaos.cs" />
@@ -70,6 +71,10 @@
     <ProjectReference Include="..\CountingValleys\CountingValleys.csproj">
       <Project>{3b532231-3c3e-4a94-90b8-74893766c318}</Project>
       <Name>CountingValleys</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hash Tables Ransom Note\HashTablesRansomNote.csproj">
+      <Project>{82837cd5-ef80-479a-8b29-d01824a9dbf1}</Project>
+      <Name>HashTablesRansomNote</Name>
     </ProjectReference>
     <ProjectReference Include="..\JumpingOnTheClouds\JumpingOnTheClouds.csproj">
       <Project>{f6cafb7d-7ead-4726-aa2b-d1e479bb67be}</Project>
