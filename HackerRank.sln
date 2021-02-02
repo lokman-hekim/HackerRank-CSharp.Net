@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayManipulation", "ArrayM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTablesRansomNote", "Hash Tables Ransom Note\HashTablesRansomNote.csproj", "{82837CD5-EF80-479A-8B29-D01824A9DBF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{CF314930-7E45-4966-BD63-1D12460A18FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{82837CD5-EF80-479A-8B29-D01824A9DBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82837CD5-EF80-479A-8B29-D01824A9DBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82837CD5-EF80-479A-8B29-D01824A9DBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF314930-7E45-4966-BD63-1D12460A18FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF314930-7E45-4966-BD63-1D12460A18FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF314930-7E45-4966-BD63-1D12460A18FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF314930-7E45-4966-BD63-1D12460A18FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

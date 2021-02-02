@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UTTwoStrings.cs" />
     <Compile Include="UTHashTablesRansomNote.cs" />
     <Compile Include="UTArrayManipulation.cs" />
     <Compile Include="UTMinimumSwaps2.cs" />
@@ -103,6 +104,10 @@
     <ProjectReference Include="..\StringAnagram\StringAnagram.csproj">
       <Project>{c05805e0-64eb-41c2-985e-bf9f4e4285bd}</Project>
       <Name>StringAnagram</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TwoStrings\TwoStrings.csproj">
+      <Project>{cf314930-7e45-4966-bd63-1d12460a18fa}</Project>
+      <Name>TwoStrings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
